@@ -66,6 +66,9 @@ Podemos alinear los elementos hijos de forma individual en el eje secundario con
 
 Los hijos flexibles ignoran propiedades como float,clear,vertical-align pero para el padre si.
 
+
 ## REGLA #9
 
-Los hijos flexibles ignoran propiedades como float,clear,vertical-align
+Podemos modificar el tamaño de los hijos con flex-grow,flex-shrink,flex-basis
+
+![](https://i.imgur.com/Vk5ceB4.png)
