@@ -42,3 +42,9 @@ Podemos permitir el salto de columnas con flex-wrap
 ![](https://i.imgur.com/QqDh13s.png)
 
 Cuando los hijos ya no tengan espacio en donde caber en el padre flexbox les obliga a que a que se queden en una unica linea pero con flex-wrap le obligamos a saltar de linea.
+
+## REGLA #5
+
+Alineamos elementos en el eje principal con justify-content
+
+![](https://i.imgur.com/ON1bV78.png)

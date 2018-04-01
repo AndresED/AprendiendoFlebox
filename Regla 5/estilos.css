@@ -1,0 +1,66 @@
+/*FLEX CONTAINER*/
+.section1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*UBICA A U HIJO AL INICIO Y AL FINAL Y EL RESTO DE HIJOS LOS REDISTRIBUYE AGREGANDOLE UN MISMO ESPACIADO*/
+    justify-content: space-between;
+}
+.section2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL FINAL DEL FLEX CONTENT(LADO DERECHO)*/
+    justify-content: flex-end;
+}
+.section3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL INICIO DEL FLEX CONTENT(LADO IZQUIERDO)*/
+    justify-content: flex-start;
+}
+.section4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL CENTRO DEL FLEXT-CONTENT*/
+    justify-content: center;
+}
+.section5{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS ENCERRANDOLOS A TODOS CON UN MARGEN Y/O ESPACIADO */
+    justify-content: space-around;
+}
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+
+}
