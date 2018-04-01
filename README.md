@@ -54,3 +54,9 @@ Alineamos elementos en el eje principal con justify-content
 Alineamos elementos en el eje secundario con align-items
 
 ![](https://i.imgur.com/ym3lhad.png)
+
+## REGLA #7
+
+Podemos alinear los elementos hijos de forma individual en el eje secundario con align-self
+
+![](https://i.imgur.com/ym3lhad.png)
