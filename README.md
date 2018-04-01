@@ -60,3 +60,12 @@ Alineamos elementos en el eje secundario con align-items
 Podemos alinear los elementos hijos de forma individual en el eje secundario con align-self
 
 ![](https://i.imgur.com/Q9PyPPP.png)
+
+
+## REGLA #8
+
+Los hijos flexibles ignoran propiedades como float,clear,vertical-align pero para el padre si.
+
+## REGLA #9
+
+Los hijos flexibles ignoran propiedades como float,clear,vertical-align

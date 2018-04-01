@@ -1,0 +1,48 @@
+/*FLEX CONTAINER*/
+.section1{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*UBICA A U HIJO AL INICIO Y AL FINAL Y EL RESTO DE HIJOS LOS REDISTRIBUYE AGREGANDOLE UN MISMO ESPACIADO*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+  align-self: flex-end;
+  clear:both;
+  float: left;
+  vertical-align: top;
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+ align-self: flex-start;
+
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+  align-self: center;
+}
+/*FLEX ITEM*/
+.caja4{
+  background: yellow;
+  align-self: stretch;
+
+}
+/*FLEX ITEM*/
+.caja5{
+  background: red;
+  align-self: auto;
+}
+/*FLEX ITEM*/
+.caja6{
+  background: teal;
+  align-self: baseline;
+}
