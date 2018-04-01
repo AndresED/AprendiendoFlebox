@@ -18,8 +18,9 @@ La altura depende del padre y su ancho de la etiqueta depende de la cantidad del
 ## REGLA #2
 El flex conteiner(contenedor Padre) tiene 2 ejes
 
-![](https://i.imgur.com/1JMcubE.png | width=100)
+![https://i.imgur.com/1JMcubE.png]()
+
 
 Eje principal(horizontal) y secundario(vertical), indican la manera como se van a mover dentro del flex container.
 
-![](https://i.imgur.com/LTEULQs.png | width=100)
+![https://i.imgur.com/LTEULQs.png]()

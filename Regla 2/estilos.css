@@ -1,0 +1,27 @@
+/*FLEX CONTAINER*/
+section{
+    width: 500px;
+    height:200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /* Determina el eje principal
+      por defecto es row (los hijos se muestran de manera horizontal)
+      column ,hace que los hijos se muestren de manera vertical
+    */
+    /*flex-direction: column;*/
+    flex-direction: row;
+}
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+}
