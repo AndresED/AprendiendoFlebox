@@ -79,3 +79,7 @@ Podemos modificar el tamaño de los hijos con flex-grow,flex-shrink,flex-basis
 Podemos resumir todo con la propiedad: flex
 
 ![](https://i.imgur.com/LG59sHD.png)
+
+Flex permite agrupar las propiedades en una única flex-grow | flex-shrink | flex-basis
+flex: flex-grow flex-shrink flex-basis
+flex: flex-grow flex-basis
