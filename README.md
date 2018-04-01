@@ -92,6 +92,9 @@ flex: flex-grow flex-basis
 ![](https://i.imgur.com/i5abMp9.png)
 
 Todos los hijos tienen orden cero
+
 El orden de cada hijo se determina de manera individual
+
 El orden va de menor a mayor
+
 También se pueden definir valores negativos
