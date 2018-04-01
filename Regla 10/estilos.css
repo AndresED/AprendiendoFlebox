@@ -1,0 +1,51 @@
+/*FLEX CONTAINER*/
+.section1{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*UBICA A U HIJO AL INICIO Y AL FINAL Y EL RESTO DE HIJOS LOS REDISTRIBUYE AGREGANDOLE UN MISMO ESPACIADO*/
+    justify-content: flex-start;
+}
+
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+  /*
+
+    Flex permite agrupar las propiedades en una única flex-grow | flex-shrink | flex-basis
+    flex: flex-grow flex-shrink flex-basis
+    flex: flex-grow flex-basis
+  */
+  flex: 1 1 0px;
+  flex: 1 0px;
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+  /*
+    flex-shrink: define el tamaño de reducción de un hijo en relación a sus demas hermanos, cuando falte espacio en el contenedor.Por defecto su valor es 1.
+  */
+  /*flex-shrink: 2;*/
+  flex-grow: 1;
+  flex-basis: 0;
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+  flex-grow: 1;
+  flex-basis: 0;
+  /*
+  Por defecto el tamaño de los hijos flexibles se define por el tamaño de su contenido
+  flex-basis: define el tamaño inicial del hijo. Su valor por defecto es auto.
+  */
+}
+
+/*
+Por defecto el tamaño de los hijos flexibles se define por el tamaño de su contenido
+flex-grow => define el tamaño que crecera un hijo , en relación a sus demas hermanos, cuando hay espacio disponible en el contenedor.Su valor por defecto es 0.
+flex-shrink: define el tamaño de reducción de un hijo en relación a sus demas hermanos, cuando falte espacio en el contenedor.Por defecto su valor es 1.
+flex-basis: define el tamaño inicial del hijo. Su valor por defecto es auto.
+*/

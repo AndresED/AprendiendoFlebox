@@ -4,9 +4,10 @@ Flexbox es una nueva forma de diseñar nuestros sitios web. Está conformado por
 
 Nos permite ahorrar la escritura de muchas líneas de código CSS y obtener un mayor control del posicionamiento y comportamiento del los bloques que conforman el diseño de nuestras páginas web.
 
-EL siguiente repositorio tiene como objetivo mostrar a través de ejemplos lo fácil que es usar flexbox y agregarlo a nuestros proyectos.
+EL siguiente repositorio tiene como objetivo monstrar un resumen de lo aprendido en el siguiente curso:
 
-###### Nota: El presente repositorio estará en continuo actualización.
+https://www.udemy.com/curso-de-flexbox-desde-0/
+
 
 
 ## REGLA #1
@@ -72,3 +73,9 @@ Los hijos flexibles ignoran propiedades como float,clear,vertical-align pero par
 Podemos modificar el tamaño de los hijos con flex-grow,flex-shrink,flex-basis
 
 ![](https://i.imgur.com/Vk5ceB4.png)
+
+## REGLA #10
+
+Podemos resumir todo con la propiedad: flex
+
+![](https://i.imgur.com/LG59sHD.png)
