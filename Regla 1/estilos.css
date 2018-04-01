@@ -1,0 +1,13 @@
+section{
+    width: 500px;
+    height:500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+}
+.caja1{
+  background: blue;
+}
+.caja2{
+  background: green;
+}

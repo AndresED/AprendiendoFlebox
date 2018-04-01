@@ -13,4 +13,7 @@ EL siguiente repositorio tiene como objetivo mostrar a trav√©s de ejemplos lo f√
 
 Flexbox necesita un padre y por lo menos un hijo
 
+La altura depende del padre y su ancho de la etiqueta depende de la cantidad del contenido que tenga.
 
+## REGLA #2
+El flex conteiner tiene 2 ejes
