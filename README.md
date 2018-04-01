@@ -59,4 +59,4 @@ Alineamos elementos en el eje secundario con align-items
 
 Podemos alinear los elementos hijos de forma individual en el eje secundario con align-self
 
-![](https://i.imgur.com/ym3lhad.png)
+![](https://i.imgur.com/Q9PyPPP.png)
