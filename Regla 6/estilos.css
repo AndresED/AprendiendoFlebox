@@ -1,0 +1,78 @@
+/*FLEX CONTAINER*/
+.section1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*UBICA A U HIJO AL INICIO Y AL FINAL Y EL RESTO DE HIJOS LOS REDISTRIBUYE AGREGANDOLE UN MISMO ESPACIADO*/
+    justify-content: center;
+    /*
+      con align-items centramos los items en el eje secundario
+      strech => los hijos van a ocupar toda la altura del padre, es decir van a ocupar todo el espacio que el padre les proporciona
+    */
+    align-items:stretch;
+}
+.section2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL FINAL DEL FLEX CONTENT(LADO DERECHO)*/
+    justify-content: center;
+    /*
+      con align-items centramos los items en el eje secundario
+      flex-start => los hijos se ubican al inicio del eje secundario (arriba)
+    */
+
+    align-items: flex-start;
+}
+.section3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL INICIO DEL FLEX CONTENT(LADO IZQUIERDO)*/
+    justify-content: center;
+    /*
+      con align-items centramos los items en el eje secundario
+      flex-end => los hijos se ubican al final del eje secundario(abajo)
+    */
+    align-items: flex-end ;
+}
+.section4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
+    display: flex;
+    /*PERMITE JUSTIFICAR A LOS HIJOS AL CENTRO DEL FLEXT-CONTENT*/
+    justify-content: center;
+    /*
+      con align-items centramos los items en el eje secundario
+      center =>  alineamos al centro del eje secundario
+    */
+    align-items:center;
+}
+
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+
+}

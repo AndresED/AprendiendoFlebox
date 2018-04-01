@@ -48,3 +48,9 @@ Cuando los hijos ya no tengan espacio en donde caber en el padre flexbox les obl
 Alineamos elementos en el eje principal con justify-content
 
 ![](https://i.imgur.com/ON1bV78.png)
+
+## REGLA #6
+
+Alineamos elementos en el eje secundario con align-items
+
+![](https://i.imgur.com/ym3lhad.png)
