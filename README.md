@@ -34,3 +34,11 @@ Eje principal(horizontal) y secundario(vertical), indican la manera como se van 
 Podemos modificar el eje principal con la propiedad: flex-direction
 
 ![](https://i.imgur.com/LHtD6q1.png)
+
+## REGLA #4
+
+Podemos permitir el salto de columnas con flex-wrap
+
+![](https://i.imgur.com/QqDh13s.png)
+
+Cuando los hijos ya no tengan espacio en donde caber en el padre flexbox les obliga a que a que se queden en una unica linea pero con flex-wrap le obligamos a saltar de linea.
