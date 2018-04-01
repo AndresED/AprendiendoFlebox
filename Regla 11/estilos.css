@@ -1,0 +1,32 @@
+/*FLEX CONTAINER*/
+.section1{
+    max-width: 500px;
+    margin:1rem auto;
+    display: flex;
+    border:1px solid blue;
+}
+
+/*FLEX ITEM*/
+.caja1{
+  background: blue;
+  padding: 1rem;
+  order: 1;
+}
+/*FLEX ITEM*/
+.caja2{
+  background: green;
+  padding: 1rem;
+  order:2;
+}
+/*FLEX ITEM*/
+.caja3{
+  background: pink;
+  padding: 1rem;
+  order:-1;
+}
+/*FLEX ITEM*/
+.caja4{
+  background: orange;
+  padding: 1rem;
+  order:3;
+}

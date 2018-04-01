@@ -85,3 +85,13 @@ Flex permite agrupar las propiedades en una única flex-grow | flex-shrink | fle
 flex: flex-grow flex-shrink flex-basis
 
 flex: flex-grow flex-basis
+
+
+##REGLA ADICIONAL: "PODEMOS REORDENAR LOS HIJOS FLEXIBLES CON LA PROPIEDAD ORDER"
+
+![](https://i.imgur.com/i5abMp9.png)
+
+Todos los hijos tienen orden cero
+El orden de cada hijo se determina de manera individual
+El orden va de menor a mayor
+También se pueden definir valores negativos
