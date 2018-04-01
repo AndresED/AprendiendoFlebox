@@ -87,7 +87,7 @@ flex: flex-grow flex-shrink flex-basis
 flex: flex-grow flex-basis
 
 
-##REGLA ADICIONAL: "PODEMOS REORDENAR LOS HIJOS FLEXIBLES CON LA PROPIEDAD ORDER"
+## REGLA ADICIONAL: "PODEMOS REORDENAR LOS HIJOS FLEXIBLES CON LA PROPIEDAD ORDER"
 
 ![](https://i.imgur.com/i5abMp9.png)
 
