@@ -6,11 +6,12 @@ section{
     margin: 0 auto;
     /* display flex, Determina que esta etiqueta se convertira en un flex-container*/
     display: flex;
-    /* Determina el eje principal
-      por defecto es row (los hijos se muestran de manera horizontal)
-      column ,hace que los hijos se muestren de manera vertical
-    */
-    /*flex-direction: column;*/
+    /* flex-direction - cambia la direccion del eje principal
+      flex-direction: row => los hijos se muestran de manera horizontal
+      flex-direction: column => los hijos se muestran de manera vertical
+      flex-direction: column-reverse => se muestran de manera vertical y de manera reversa;
+      flex-direction: row-reverse -reverse => se muestran de manera horizontal y de manera reversa;
+      */
     flex-direction: row;
 }
 /*FLEX ITEM*/

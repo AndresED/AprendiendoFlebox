@@ -13,6 +13,9 @@ EL siguiente repositorio tiene como objetivo mostrar a trav√©s de ejemplos lo f√
 
 Flexbox necesita un padre y por lo menos un hijo
 
+![](https://i.imgur.com/wlbLO5t.png)
+
+
 La altura depende del padre y su ancho de la etiqueta depende de la cantidad del contenido que tenga.
 
 ## REGLA #2
@@ -24,3 +27,10 @@ El flex conteiner(contenedor Padre) tiene 2 ejes
 Eje principal(horizontal) y secundario(vertical), indican la manera como se van a mover dentro del flex container.
 
 ![](https://i.imgur.com/LTEULQs.png)
+
+
+## REGLA #3
+
+Podemos modificar el eje principal con la propiedad: flex-direction
+
+![](https://i.imgur.com/LHtD6q1.png)
